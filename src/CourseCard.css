@@ -1,0 +1,75 @@
+.coursecard {
+  width: 600px;
+  height: 430px;
+  border: 0 solid black;
+  position: relative;
+  box-shadow: 0 0 30px 3px lightgrey;
+  color: white;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+.coursecard__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background: linear-gradient(to right, rgba(61, 90, 254, 0.8), rgba(134, 185, 255, 0.7));
+  padding: 20px;
+}
+.coursecard img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.coursecard header {
+  display: flex;
+  justify-content: space-between;
+}
+.coursecard header .title {
+  margin: 30px 30px 10px;
+}
+.coursecard header .badge {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+}
+.coursecard main {
+  margin: 20px 20px;
+}
+.coursecard main p {
+  margin-bottom: 10px;
+}
+.coursecard footer {
+  display: flex;
+  flex-direction: column;
+}
+.coursecard footer .button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.coursecard footer .reminder {
+  margin: 10px;
+  font-size: 20px;
+}
+.coursecard footer input {
+  width: 200px;
+  height: 30px;
+}
+.coursecard footer button {
+  background-color: rgba(61, 90, 254, 0.5);
+  color: white;
+  font-size: large;
+  border: 1px solid white;
+  margin: 10px;
+  padding: 10px;
+}
+.coursecard footer button:hover {
+  cursor: pointer;
+}
+.coursecard footer .enrollment-count {
+  margin-top: 5px;
+  margin-left: 10px;
+}/*# sourceMappingURL=CourseCard.css.map */
