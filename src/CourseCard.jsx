@@ -28,11 +28,11 @@ const CourseCard = ({ data, difficulty }) => {
 
   return (
     <div className="coursecard">
-      <img src={imageUrl} />
+      <img src={imageUrl} alt='background image'/>
       <div className="coursecard__overlay">
         <header>
           <h2 className="title">{name}</h2>
-          {isNew ? <img className="badge" src="src/images/badge.png" /> : ''}
+          {isNew ? <img className="badge" src="../images/badge.png" /> : ''}
         </header>
         <main>
           <p>{`Price: ${price}`}</p>
